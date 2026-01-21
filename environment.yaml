@@ -1,0 +1,16 @@
+name: gemini_robot
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - opencv
+  - jupyter
+  
+  - pip:
+    - google-genai
+    - mujoco>=3.4.0
+    - pillow
+    - glfw
