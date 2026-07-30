@@ -16,7 +16,8 @@ from PIL import Image
 # 1. 설정 및 API 키
 # ---------------------------------------------------------
 # MODEL_NAME = "gemini-2.0-flash-exp"  # 속도와 JSON 처리가 더 좋은 모델 권장 (없으면 기존 것 사용)
-MODEL_NAME = "gemini-3-flash-preview"
+# MODEL_NAME = "gemini-3-flash-preview"
+MODEL_NAME = "gemini-robotics-er-2-preview"  # Gemini Robotics-ER 2 (spatial reasoning 특화)
 # MODEL_NAME = "gemini-1.5-flash" # 혹은 기존 사용하던 모델
 SCENE_XML = "scene.xml"
 TARGET_SITE_NAME = "gripper"

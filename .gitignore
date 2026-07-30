@@ -1,0 +1,25 @@
+# API keys & secrets
+api_key.txt
+*api_key*
+*.key
+.env
+.env.*
+secrets.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Conda / venv
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 논문/문서 (실수로 커밋되는 것 방지)
+*.pdf
